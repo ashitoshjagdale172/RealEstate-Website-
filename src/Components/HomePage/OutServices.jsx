@@ -1,10 +1,11 @@
-import React, { useState } from "react";
-import room1 from "../../assets/Images/Room1.png";
+import React from "react";
 
-import AjitProfile from "../../assets/Images/AjitProfile.jfif";
+import API from "./OurService.json"
 import OurservicesCompo from "./OurservicesCompo";
 const OutServices = () => {
- 
+  
+  
+  
   return (
     <div>
       <div className=" flex flex-col items-center justify-center">
@@ -30,8 +31,30 @@ const OutServices = () => {
             Office
           </button>
         </div>
-        <div className=" mx-[160px] my-[50px] flex gap-[26px]">
-          <OurservicesCompo />
+        <div className=" mx-[160px] my-[50px] flex flex-wrap gap-[26px]">
+        {API.length > 0 ? (
+            API.map((service, index) => (
+              <OurservicesCompo
+                key={index}
+                room={service.Room}
+                rent={service.Rent}
+                heading={service.Heading}
+                location={service.Location}
+                beds={service.Bed}
+                bathrooms={service.Bathroom}
+                parking={service.CarParking}
+                ProfilePic={service.ProfileImage}
+                name={service.Name}
+                date={service.Date}
+              />
+            ))
+          ) : (
+            <div>Loading services...</div>
+          )}
+         
+        </div>
+        <div>
+          <button className="  mb-[100px] text-[#ffffff] text-[18px] font-[500] px-[60px] py-[13px] bg-[#ED2027] rounded-[10px]">View All Properties</button>
         </div>
       </div>
     </div>
