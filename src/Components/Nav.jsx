@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import  {Link} from "react-router-dom";
 
 const Nav = () => {
   const [isDropdownOpen1, setIsDropdownOpen1] = useState(false);
@@ -12,7 +13,7 @@ const Nav = () => {
     setIsDropdownOpen3(dropdownNumber === 3);
     setIsDropdownOpen4(dropdownNumber === 4);
   };
-  
+
   return (
     <div>
       <div className=" flex items-center justify-between px-12 py-2 z-20 relative bg-[#ffffff]">
@@ -21,14 +22,18 @@ const Nav = () => {
           <div
             className="text-[20px] font-[600] relative"
             onMouseOver={() => handleDropdown(1)}
-            
           >
-            Buy<span>{isDropdownOpen1 && <span className="">&#11167;</span>}{ ! isDropdownOpen1 && <span className=" invi"> &#11165;</span>
-              }
+            Buy
+            <span>
+              {isDropdownOpen1 && <span className="">&#11167;</span>}
+              {!isDropdownOpen1 && <span className=" invi"> &#11165;</span>}
             </span>
           </div>
           {isDropdownOpen1 && (
-            <div onMouseLeave={() => setIsDropdownOpen1(false)} className="absolute top-20 z-30 left-[32%] bg-white p-4 w-[200] flex  justify-center ">
+            <div
+              onMouseLeave={() => setIsDropdownOpen1(false)}
+              className="absolute top-20 z-30 left-[32%] bg-white p-4 w-[200] flex  justify-center "
+            >
               <div className="hover:bg-gray-100 text-[12px] font-[600]">
                 <a
                   href="#"
@@ -136,14 +141,18 @@ const Nav = () => {
           <div
             className="text-[20px] font-[600] relative"
             onMouseOver={() => handleDropdown(2)}
-           
           >
-            Sell<span>{isDropdownOpen2 && <span className="">&#11167;</span>}{ ! isDropdownOpen2 && <span className=" invi"> &#11165;</span>
-              }
+            Sell
+            <span>
+              {isDropdownOpen2 && <span className="">&#11167;</span>}
+              {!isDropdownOpen2 && <span className=" invi"> &#11165;</span>}
             </span>
           </div>
           {isDropdownOpen2 && (
-            <div  onMouseLeave={() => setIsDropdownOpen2(false)} className=" z-30 absolute top-20 left-[36%] bg-white p-4 w-[200] flex  justify-center ">
+            <div
+              onMouseLeave={() => setIsDropdownOpen2(false)}
+              className=" z-30 absolute top-20 left-[36%] bg-white p-4 w-[200] flex  justify-center "
+            >
               <div className="hover:bg-gray-100 text-[12px] font-[600]">
                 <a
                   href="#"
@@ -227,14 +236,18 @@ const Nav = () => {
           <div
             className="text-[20px] font-[600] relative"
             onMouseOver={() => handleDropdown(3)}
-            
           >
-            Rent<span>{isDropdownOpen3 && <span className="">&#11167;</span>}{ ! isDropdownOpen3 && <span className=" invi"> &#11165;</span>
-              }
+            Rent
+            <span>
+              {isDropdownOpen3 && <span className="">&#11167;</span>}
+              {!isDropdownOpen3 && <span className=" invi"> &#11165;</span>}
             </span>
           </div>
           {isDropdownOpen3 && (
-            <div onMouseLeave={() => setIsDropdownOpen3(false)} className="absolute top-20 left-[40%] z-30 bg-white p-4 w-[200] flex  justify-center ">
+            <div
+              onMouseLeave={() => setIsDropdownOpen3(false)}
+              className="absolute top-20 left-[40%] z-30 bg-white p-4 w-[200] flex  justify-center "
+            >
               <div className="hover:bg-gray-100 text-[12px] font-[600]">
                 <a
                   href="#"
@@ -336,14 +349,18 @@ const Nav = () => {
           <div
             className="text-[20px] font-[600] relative"
             onMouseOver={() => handleDropdown(4)}
-            
           >
-            Dashboard <span>{isDropdownOpen4 && <span className="">&#11167;</span>}{ ! isDropdownOpen4 && <span className=" invi"> &#11165;</span>
-              }
+            Dashboard{" "}
+            <span>
+              {isDropdownOpen4 && <span className="">&#11167;</span>}
+              {!isDropdownOpen4 && <span className=" invi"> &#11165;</span>}
             </span>
           </div>
           {isDropdownOpen4 && (
-            <div onMouseLeave={() => setIsDropdownOpen4(false)} className="absolute top-20 left-[45%] bg-white p-4 w-[200] z-30 flex  justify-center ">
+            <div
+              onMouseLeave={() => setIsDropdownOpen4(false)}
+              className="absolute top-20 left-[45%] bg-white p-4 w-[200] z-30 flex  justify-center "
+            >
               <div className="hover:bg-gray-100 text-[12px] font-[600]">
                 <a
                   href="#"
@@ -381,11 +398,10 @@ const Nav = () => {
         </div>
         <div className=" flex items-center gap-10">
           <div>
-            <button
-              href="#"
-              className=" py-1 px-3 text-red-600 rounded-[10px] border-[#dc2626] border-2 border-solid"
-            >
+            <button className=" py-1 px-3 text-red-600 rounded-[10px] border-[#dc2626] border-2 border-solid">
+              {/* <Link to="./Login"> */}
               Login/Register
+              {/* </Link> */}
             </button>
           </div>
           <div>

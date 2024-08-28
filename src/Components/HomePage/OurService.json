@@ -1,0 +1,121 @@
+[
+    
+    {
+        "Room": "./src/assets/Images/Room1.png",
+        "Rent": "36000",
+        "Heading": "The Willows of Plainview",
+        "Location": "Pushpanagari Apartment, Kothrud",
+        "Bed":2,
+        "Bathroom":2,
+        "CarParking":1,
+        "Pet":"yes",
+        "ProfileImage":"./src/assets/Images/AjitProfile.jfif",
+        "Name":"Ajit Kumar",
+        "Date":"08-07-2024"
+    },
+    {
+        "Room": "./src/assets/Images/Room2.png",
+        "Rent": "26000",
+        "Heading": "1BHK SKYi Songbirds",
+        "Location": "Opposite Symbiosis College, Pune airport",
+        "Bed":1,
+        "Bathroom":1,
+        "CarParking":1,
+        "Pet":"yes",
+        "ProfileImage":"./src/assets/Images/VishalPandit.jfif",
+        "Name":"Vishal Pandit",
+        "Date":"08-07-2024"
+    },
+    {
+        "Room": "./src/assets/Images/Room3.png",
+        "Rent": "30000",
+        "Heading": "Paranjape Blue Ridge",
+        "Location": "Wanwadi, Pune, Maharashtra",
+        "Bed":2,
+        "Bathroom":2,
+        "CarParking":2,
+        "Pet":"yes",
+        "ProfileImage":"./src/assets/Images/AnilPore.jfif",
+        "Name":"Anil Pore",
+        "Date":"08-07-2024"
+    },
+    {
+        "Room": "./src/assets/Images/Room4.png",
+        "Rent": "40000",
+        "Heading": "Kolte Patil Life Republic",
+        "Location": "Hinjewadi, Pimpri Chinchwad,Maharashtra",
+        "Bed":3,
+        "Bathroom":2,
+        "CarParking":1,
+        "Pet":"yes",
+        "ProfileImage":"./src/assets/Images/VidyaJoshi.jfif",
+        "Name":"Vidya Joshi",
+        "Date":"08-07-2024"
+    },
+    {
+        "Room": "./src/assets/Images/Room5.png",
+        "Rent": "31000",
+        "Heading": "Amanora Trendy Homes",
+        "Location": "Near Amnora Mall, Hadapsar, Pune",
+        "Bed":2,
+        "Bathroom":2,
+        "CarParking":1,
+        "Pet":"yes",
+        "ProfileImage":"./src/assets/Images/HerambShrivastav.jfif",
+        "Name":"Heramb Shrivastav",
+        "Date":"08-06-2024"
+    },
+    {
+        "Room": "./src/assets/Images/Room6.png",
+        "Rent": "27000",
+        "Heading": "Kolte-Patil 24k Glamore",
+        "Location": "No 545, NIBM Road, Pune,Maharashtra",
+        "Bed":1,
+        "Bathroom":2,
+        "CarParking":1,
+        "Pet":"yes",
+        "ProfileImage":"./src/assets/Images/VishwasDubey.jfif",
+        "Name":"Vishwas Dubey",
+        "Date":"08-06-2024"
+    },
+    {
+        "Room": "./src/assets/Images/Room7.png",
+        "Rent": "28000",
+        "Heading": "SP Infocity, Pune",
+        "Location": "Fursungi, Pune 412308, Maharashtra",
+        "Bed":1,
+        "Bathroom":1,
+        "CarParking":1,
+        "Pet":"yes",
+        "ProfileImage":"./src/assets/Images/DipakKhanna.jfif",
+        "Name":"Dipak Khanna",
+        "Date":"08-06-2024"
+    },
+    {
+        "Room": "./src/assets/Images/Room8.png",
+        "Rent": "26000",
+        "Heading": "Todkar Township, sasanenagar",
+        "Location": "hadapsar, Pune, Maharashtra",
+        "Bed":1,
+        "Bathroom":2,
+        "CarParking":1,
+        "Pet":"yes",
+        "ProfileImage":"./src/assets/Images/SwatiSharma.jfif",
+        "Name":"Swati Sharma",
+        "Date":"08-06-2024"
+    },
+    {
+        "Room": "./src/assets/Images/Room9.png",
+        "Rent": "32000",
+        "Heading": "Malpani Greens, Wakad",
+        "Location": "Wakad, Pune - Pimpri Chinchwad",
+        "Bed":2,
+        "Bathroom":2,
+        "CarParking":1,
+        "Pet":"yes",
+        "ProfileImage":"./src/assets/Images/DevikaShah.jfif",
+        "Name":"Devika Shah",
+        "Date":"08-06-2024"
+    }
+    
+]

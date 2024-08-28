@@ -37,14 +37,14 @@ const Header = () => {
             <div className=" gap-[57px] flex items-center rounded-[5px] justify-center bg-[#ffffff] px-[16px] py-[16px] mt-[40px]">
               <div className=" border-[#E4E4E4] border-r-2 text-left">
                 <div className="text-[12px] font-[600]">KEYWORD</div>
-                <div className="text-[#B0B0B0] text-[12px] font-[600] mt-[14px] py-[4px] pr-[110px]">
-                  Search Keyword
+                <div className="text-[#B0B0B0] text-[12px] font-[600] mt-[14px] py-[4px] pr-[60px]">
+                <input type="text" placeholder="Search Keyword" />
                 </div>
               </div>
               <div className=" border-[#E4E4E4] border-r-2 text-left">
                 <div className="text-[12px] font-[600]">LOCATION</div>
-                <div className="text-[#B0B0B0] text-[12px] font-[600] mt-[14px] py-[4px] pr-[110px]">
-                  Search Location
+                <div className="text-[#B0B0B0] text-[12px] font-[600] mt-[14px] py-[4px] pr-[60px]">
+                <input type="text" placeholder="Search Location" />
                 </div>
               </div>
               <div className=" flex items-center justify-between">
